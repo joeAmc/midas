@@ -1,4 +1,36 @@
+.header {
+  width: 100vw;
+  height: 80px;
+  border-top: 2px solid var(--primary-color);
+  border-bottom: 2px solid var(--primary-color);
+  margin-top: 22px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+  box-shadow: var(--box-shadow);
+}
+
 img {
   height: 120px;
   width: auto;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  margin-top: auto;
+  margin-bottom: auto;
+  left: 32px;
+}
+
+.nav {
+  margin-right: 32px;
+  /* padding: 16px; */
+}
+
+.nav a {
+  margin-left: 16px;
+  text-decoration: none;
+  color: var(--primary-color);
+  font-size: 22px;
+  /* padding: 16px; */
 }
