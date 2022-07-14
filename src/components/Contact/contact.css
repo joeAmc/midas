@@ -1,0 +1,37 @@
+form {
+  /* border: 2px solid var(--primary-color); */
+  margin-bottom: 4rem;
+  /* backdrop-filter: blur(15px); */
+  width: 70vw;
+
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+  /* box-shadow: var(--box-shadow); */
+}
+
+form h1 {
+  color: var(--secondary-color);
+}
+
+input::placeholder {
+  color: var(--primarylight-color);
+  font-size: 0.9rem;
+}
+textarea::placeholder {
+  color: var(--primarylight-color);
+  font-size: 0.9rem;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 1.2rem;
+  /* border-radius: 1.6rem; */
+  resize: none;
+  border: 2px solid var(--primary-color);
+  background: transparent;
+  color: var(--primary-color);
+  font-size: 0.9rem;
+}

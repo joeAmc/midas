@@ -8,7 +8,7 @@ import EarringsPage from "./pages/Earrings";
 
 import "./App.css";
 
-function App() {
+const App = () => {
   return (
     <>
       <Header />
@@ -26,6 +26,6 @@ function App() {
       <Footer />
     </>
   );
-}
+};
 
 export default App;

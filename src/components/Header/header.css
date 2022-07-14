@@ -48,7 +48,7 @@ img {
 .about-link {
   display: flex;
   flex-direction: column;
-  margin-left: 16px;
+
   justify-content: center;
   position: relative;
 }
@@ -68,7 +68,7 @@ img {
 .collect-link {
   display: flex;
   flex-direction: column;
-  margin-left: 16px;
+  margin-left: 18px;
   justify-content: center;
   position: relative;
 }
@@ -88,7 +88,7 @@ img {
 .contact-link {
   display: flex;
   flex-direction: column;
-  margin-left: 16px;
+  margin-left: 18px;
   justify-content: center;
   position: relative;
 }
