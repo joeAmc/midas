@@ -27,20 +27,80 @@ img {
 
 .nav {
   margin-right: 32px;
+  display: flex;
   /* padding: 16px; */
 }
 
 .nav a {
-  margin-left: 16px;
   text-decoration: none;
   color: var(--primary-color);
   font-size: 22px;
-  padding: 0.4rem;
   transition: var(--transition);
   /* padding: 16px; */
 }
 
-.nav a:hover {
-  border-bottom: 2px solid var(--secondary-color);
-  /* border-top: 2px solid var(--secondary-color); */
+.nav svg {
+  font-size: 32px;
+  color: white;
+  transition: var(--transition);
+}
+
+.about-link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.about-link svg {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.about-link:hover svg {
+  color: var(--secondary-color);
+}
+
+.collect-link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.collect-link svg {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.collect-link:hover svg {
+  color: var(--accent-color);
+}
+
+.contact-link {
+  display: flex;
+  flex-direction: column;
+  margin-left: 16px;
+  justify-content: center;
+  position: relative;
+}
+
+.contact-link svg {
+  position: absolute;
+  bottom: -22px;
+  left: 0;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+.contact-link:hover svg {
+  color: var(--primary-color);
 }

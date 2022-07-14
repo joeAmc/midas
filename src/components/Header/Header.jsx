@@ -3,6 +3,7 @@ import React from "react";
 import "../Header/header.css";
 import Logo from "../../assets/Logo.png";
 import { Link } from "react-router-dom";
+import { BsThreeDots } from "react-icons/bs";
 
 const Header = () => {
   return (
@@ -11,9 +12,18 @@ const Header = () => {
         <img src={Logo} alt="logo" />
       </Link>
       <div className="nav">
-        <a href="#about">About</a>
-        <a href="#collections">Collections</a>
-        <a href="#contact">Contact</a>
+        <div className="about-link">
+          <a href="#about">About</a>
+          <BsThreeDots />
+        </div>
+        <div className="collect-link">
+          <a href="#collections">Collections</a>
+          <BsThreeDots />
+        </div>
+        <div className="contact-link">
+          <a href="#contact">Contact</a>
+          <BsThreeDots />
+        </div>
       </div>
     </div>
   );
