@@ -6,7 +6,7 @@ const Contact = () => {
     <section id="contact">
       <div className="form">
         <form>
-          <h1>Contact Midas Touch</h1>
+          <h1>Contact us</h1>
           <input
             type="text"
             name="name"
@@ -22,8 +22,8 @@ const Contact = () => {
             placeholder="Enter a message"
             required
           ></textarea>
-          <button type="submit" class="btn">
-            Submit
+          <button type="submit" className="btn">
+            Send
           </button>
         </form>
       </div>

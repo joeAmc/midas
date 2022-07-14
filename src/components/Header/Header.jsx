@@ -11,6 +11,7 @@ const Header = () => {
       <Link to="/">
         <img src={Logo} alt="logo" />
       </Link>
+      <h1>Midas Touch</h1>
       <div className="nav">
         <div className="about-link">
           <a href="#about">About</a>

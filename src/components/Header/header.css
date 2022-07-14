@@ -8,10 +8,14 @@
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: end;
+  justify-content: space-between;
   box-shadow: var(--box-shadow);
   position: fixed;
   top: 0;
+}
+
+.header h1 {
+  margin-left: -485px;
 }
 
 img {
@@ -34,7 +38,7 @@ img {
 .nav a {
   text-decoration: none;
   color: var(--primary-color);
-  font-size: 22px;
+  font-size: 20px;
   transition: var(--transition);
   /* padding: 16px; */
 }
@@ -55,14 +59,14 @@ img {
 
 .about-link svg {
   position: absolute;
-  bottom: -22px;
+  bottom: -16px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
 }
 .about-link:hover svg {
-  color: var(--secondary-color);
+  color: var(--primary-color);
 }
 
 .collect-link {
@@ -75,7 +79,7 @@ img {
 
 .collect-link svg {
   position: absolute;
-  bottom: -22px;
+  bottom: -16px;
   left: 0;
   right: 0;
   margin-left: auto;
@@ -95,12 +99,12 @@ img {
 
 .contact-link svg {
   position: absolute;
-  bottom: -22px;
+  bottom: -16px;
   left: 0;
   right: 0;
   margin-left: auto;
   margin-right: auto;
 }
 .contact-link:hover svg {
-  color: var(--primary-color);
+  color: var(--secondary-color);
 }

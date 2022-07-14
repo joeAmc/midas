@@ -12,8 +12,10 @@
   --primarylight-color: #dbd1b8;
   --secondary-color: #719d78;
   --accent-color: #692228;
+  --accentlight-color: #9e5159;
   --box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
   --transition: all 400ms ease;
+  --border-radius: 4px;
 }
 
 html {
@@ -25,7 +27,6 @@ html {
 }
 
 section {
-  margin-top: 20rem;
   min-height: 100vh;
 }
 
@@ -33,4 +34,27 @@ h1 {
   font-family: "El Messiri", sans-serif;
   font-weight: 700;
   font-size: 32px;
+  color: var(--primary-color);
+}
+
+a {
+  font-family: "El Messiri", sans-serif;
+  font-weight: 700;
+  font-size: 16px;
+}
+
+.btn {
+  background: var(--accent-color);
+  color: white;
+  border: none;
+  padding: 12px;
+  border-radius: var(--border-radius);
+  width: 72px;
+  cursor: pointer;
+  transition: var(--transition);
+}
+
+.btn:hover {
+  background: var(--accentlight-color);
+  color: white;
 }
