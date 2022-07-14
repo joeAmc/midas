@@ -15,3 +15,12 @@
 html {
   scroll-behavior: smooth;
 }
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+section {
+  margin-top: 20rem;
+  min-height: 100vh;
+}

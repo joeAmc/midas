@@ -22,7 +22,7 @@ function App() {
           <EarringsPage />
         </Route>
       </Switch>
-      <h1>Midas Touch</h1>
+      {/* <h1>Midas Touch</h1> */}
     </div>
   );
 }

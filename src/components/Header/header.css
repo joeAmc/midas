@@ -9,6 +9,7 @@
   align-items: center;
   justify-content: end;
   box-shadow: var(--box-shadow);
+  /* position: fixed; */
 }
 
 img {
