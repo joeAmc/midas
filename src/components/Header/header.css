@@ -1,6 +1,7 @@
 .header {
   width: 100vw;
   height: 80px;
+  background-color: white;
   border-top: 2px solid var(--primary-color);
   border-bottom: 2px solid var(--primary-color);
   margin-top: 22px;
@@ -9,7 +10,8 @@
   align-items: center;
   justify-content: end;
   box-shadow: var(--box-shadow);
-  /* position: fixed; */
+  position: fixed;
+  top: 0;
 }
 
 img {

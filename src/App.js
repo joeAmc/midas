@@ -9,7 +9,7 @@ import "./App.css";
 
 function App() {
   return (
-    <div className="App">
+    <>
       <Header />
       <Switch>
         <Route path="/" exact>
@@ -23,7 +23,7 @@ function App() {
         </Route>
       </Switch>
       {/* <h1>Midas Touch</h1> */}
-    </div>
+    </>
   );
 }
 
