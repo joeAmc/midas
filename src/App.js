@@ -1,6 +1,7 @@
 import React from "react";
 import { Route, Switch } from "react-router-dom";
 import Header from "./components/Header/Header";
+import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/Home";
 import RingsPage from "./pages/Rings";
 import EarringsPage from "./pages/Earrings";
@@ -22,7 +23,7 @@ function App() {
           <EarringsPage />
         </Route>
       </Switch>
-      {/* <h1>Midas Touch</h1> */}
+      <Footer />
     </>
   );
 }

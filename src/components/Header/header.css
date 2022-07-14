@@ -35,5 +35,12 @@ img {
   text-decoration: none;
   color: var(--primary-color);
   font-size: 22px;
+  padding: 0.4rem;
+  transition: var(--transition);
   /* padding: 16px; */
+}
+
+.nav a:hover {
+  border-bottom: 2px solid var(--secondary-color);
+  /* border-top: 2px solid var(--secondary-color); */
 }

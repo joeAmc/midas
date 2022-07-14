@@ -7,9 +7,10 @@
 
 :root {
   --primary-color: #a58f53;
-  --secondary-color: #708373;
+  --secondary-color: #719d78;
   --accent-color: #692228;
   --box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
+  --transition: all 400ms ease;
 }
 
 html {
