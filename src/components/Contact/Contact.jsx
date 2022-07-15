@@ -4,6 +4,7 @@ import "../Contact/contact.css";
 const Contact = () => {
   return (
     <section id="contact">
+      <div className="spacer"></div>
       <div className="form">
         <form>
           <h1>Contact us</h1>

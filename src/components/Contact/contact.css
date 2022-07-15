@@ -17,6 +17,7 @@ form {
 
 form h1 {
   color: var(--primary-color);
+  margin-bottom: -10px;
 }
 
 input::placeholder {

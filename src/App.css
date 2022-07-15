@@ -9,7 +9,7 @@
 
 :root {
   --primary-color: #a58f53;
-  --primarylight-color: #dbd1b8;
+  --primarylight-color: #ece2c9;
   --secondary-color: #719d78;
   --accent-color: #692228;
   --accentlight-color: #9e5159;
@@ -45,7 +45,7 @@ a {
 
 .btn {
   background: var(--accent-color);
-  color: white;
+  color: var(--primarylight-color);
   border: none;
   padding: 12px;
   border-radius: var(--border-radius);
@@ -57,4 +57,8 @@ a {
 .btn:hover {
   background: var(--accentlight-color);
   color: white;
+}
+
+.spacer {
+  height: 85px;
 }
