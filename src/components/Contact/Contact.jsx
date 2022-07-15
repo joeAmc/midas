@@ -1,5 +1,6 @@
 import React from "react";
 import "../Contact/contact.css";
+import { BsThreeDots } from "react-icons/bs";
 
 const Contact = () => {
   return (
@@ -7,7 +8,10 @@ const Contact = () => {
       <div className="spacer"></div>
       <div className="form">
         <form>
-          <h1>Contact us</h1>
+          <div className="form-h1">
+            <h1>Contact us</h1>
+            <BsThreeDots />
+          </div>
           <input
             type="text"
             name="name"
