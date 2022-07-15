@@ -49,6 +49,7 @@ textarea {
   justify-content: center;
   position: relative;
   width: 154px;
+  z-index: -1;
 }
 
 .form-h1 svg {
