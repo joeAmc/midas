@@ -4,9 +4,13 @@ import { BsThreeDots } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <section id="contact">
+    <section data-aos="fade" data-aos-duration="700" id="contact">
       <div className="spacer"></div>
-      <div className="form">
+      <div
+        // data-aos-anchor="#contact"
+
+        className="form"
+      >
         <form>
           <div className="form-h1">
             <h1>Contact us</h1>

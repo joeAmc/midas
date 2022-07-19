@@ -5,10 +5,17 @@ import Footer from "./components/Footer/Footer";
 import HomePage from "./pages/Home";
 import RingsPage from "./pages/Rings";
 import EarringsPage from "./pages/Earrings";
-
+import AOS from "aos";
+import "aos/dist/aos.css";
 import "./App.css";
+import { useEffect } from "react";
 
 const App = () => {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
+
   return (
     <>
       <Header />
