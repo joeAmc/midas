@@ -11,6 +11,7 @@
   --primary-color: #a58f53;
   --primarylight-color: #ece2c9;
   --secondary-color: #719d78;
+  --secondarylight-color: #91c79a;
   --accent-color: #692228;
   --accentlight-color: #9e5159;
   --box-shadow: 0 0 15px rgba(0, 0, 0, 0.15);
@@ -44,8 +45,8 @@ a {
 }
 
 .btn {
-  background: var(--accent-color);
-  color: var(--primarylight-color);
+  background: var(--secondary-color);
+  color: white;
   border: none;
   padding: 12px;
   border-radius: var(--border-radius);
@@ -55,8 +56,7 @@ a {
 }
 
 .btn:hover {
-  background: var(--accentlight-color);
-  color: white;
+  background: var(--secondarylight-color);
 }
 
 .spacer {

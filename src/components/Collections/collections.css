@@ -1,0 +1,40 @@
+#collections {
+  position: relative;
+}
+
+.rings {
+  position: absolute;
+  height: 300px;
+  width: 350px;
+  border-radius: 4px;
+  overflow: hidden;
+  top: 250px;
+
+  left: 0;
+  right: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.rings img {
+  height: 320px;
+  width: auto;
+}
+
+.earrings {
+  position: absolute;
+  height: 300px;
+  width: 350px;
+  border-radius: 4px;
+  overflow: hidden;
+  bottom: 150px;
+  left: 300px;
+  right: 0;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.earrings img {
+  height: 320px;
+  width: auto;
+}
