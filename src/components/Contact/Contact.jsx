@@ -4,7 +4,7 @@ import { BsThreeDots } from "react-icons/bs";
 
 const Contact = () => {
   return (
-    <section data-aos="fade" data-aos-duration="700" id="contact">
+    <section data-aos="fade" data-aos-duration="800" id="contact">
       <div className="spacer"></div>
       <div
         // data-aos-anchor="#contact"

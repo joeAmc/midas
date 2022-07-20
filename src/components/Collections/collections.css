@@ -1,19 +1,36 @@
-#collections {
+section {
   position: relative;
+  /* height: 100vh;
+  /* width: 100vw; */
+}
+
+.rings-container {
+  position: absolute;
+  top: 150px;
+  left: 33%;
+  transform: translate(-50%, 0);
+}
+
+.earrings-container {
+  position: absolute;
+  left: 67%;
+  top: 200px;
+  transform: translate(-50%, 0);
+  /* left: 100px; */
 }
 
 .rings {
-  position: absolute;
+  /* position: absolute; */
   height: 300px;
   width: 350px;
   border-radius: 4px;
   overflow: hidden;
-  top: 150px;
+  /* top: 90px;
 
   left: 0;
   right: 400px;
   margin-left: auto;
-  margin-right: auto;
+  margin-right: auto; */
   /* background-color: black; */
 }
 
@@ -23,23 +40,59 @@
   cursor: pointer;
 }
 
-.earrings {
+.rings-h1 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
   position: absolute;
+  width: 154px;
+  bottom: -50px;
+  left: 274px;
+  /* z-index: 50; */
+}
+
+.rings-h1 svg {
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  font-size: 38px;
+  color: var(--accent-color);
+}
+
+.earrings {
+  /* position: absolute; */
   height: 300px;
   width: 350px;
   border-radius: 4px;
   overflow: hidden;
   /* bottom: 150px; */
-  top: 150px;
-
-  left: 400px;
-  right: 0;
-  margin-left: auto;
-  margin-right: auto;
 }
 
 .earrings img {
   height: 320px;
   width: auto;
   cursor: pointer;
+  z-index: -1;
+}
+
+.earring-h1 {
+  display: flex;
+  flex-direction: column;
+
+  justify-content: center;
+  position: absolute;
+  width: 154px;
+  top: -68px;
+  left: 0px;
+
+  /* z-index: 50; */
+}
+
+.earring-h1 svg {
+  position: absolute;
+  bottom: -14px;
+  left: 0;
+  font-size: 38px;
+  color: var(--accent-color);
 }
